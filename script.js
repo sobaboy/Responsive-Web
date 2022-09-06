@@ -4,6 +4,7 @@ let i = 1;
 
 setInterval(() => {
   i++;
+  console.log(i);
   const icon = document.querySelector(".section-1-icons .change");
   icon.classList.remove("change");
   if (i > icons.length) {
